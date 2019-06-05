@@ -1,0 +1,35 @@
+$material-design-icons-font-path: '~material-design-icons-iconfont/dist/fonts/';
+
+@import '~material-design-icons-iconfont/src/material-design-icons';
+
+$color--primary: #17c29f;      // Light Sea Green
+$color--secondary: #2b7fbb;    // Tufts Blue
+$color--ternary: #25aae1;      // Bright Cerulean
+
+$color--heading: #282828;
+$color--heading2: $color--secondary;
+$color--tooltip: #909090;
+$color--body: #5e5e5e;
+$color--inactive: #2b7fbb;
+
+
+$color--icon: #25aae1;
+
+$color--border: #bbd5f2;
+$color--border-green: #b7e2d9;
+$color--light-grey-border: #dcdbdb;
+
+$color--light: #ffffff;
+
+$color--deemphasize: #c2c2c2;
+
+$color--blue-foreground: #75c3fc;
+$color--blue-medium: #48a0df;
+$color--blue-hint: #cbe9ff;
+$color--blue-subtle: #ecf5ff;
+
+$color--default-background: #d4dae6;
+
+$length--keywordPadding: 15px;
+
+$duration--short-transition: .2s;
