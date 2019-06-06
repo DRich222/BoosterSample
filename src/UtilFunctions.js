@@ -35,11 +35,11 @@ export default {
   //This is a recursive function that checks whether any parent of a given element has a particular class.  The reason
   //this is needed is because clicking or tapping certain portions of the resume will remove the "current" status from
   //impact statements or keywords.  There are some areas though for which I do not want the "current" status
-  // changed.  For example, if a user has selected a current keyword, but, during the course of browsing the related
-  // impacts wants to click an impact, I don't necessarily want the "current" keyword being made not current.
-  // However, if the resume viewer has a current keyword and just wants to remove the highlighting, my expectation
-  // is that they will just click anywhere on the page.  For that event, the "current" status is removed from the
-  // keyword.
+  //changed.  For example, if a user has selected a current keyword, but, during the course of browsing the related
+  //impacts wants to click an impact, I don't necessarily want the "current" keyword being made not current.
+  //However, if the resume viewer has a current keyword and just wants to remove the highlighting, my expectation
+  //is that they will just click anywhere on the page.  For that event, the "current" status is removed from the
+  //keyword.
   aParentHasClass: function(element, targetClass) {
     if (element.classList.contains(targetClass)) return true;
     else if (element.parentElement === null) return false;

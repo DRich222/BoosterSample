@@ -4,7 +4,7 @@
       <!--        @Reviewer
                   Type text here and only keywords with that text will be listed.  The search/filtering capability is
                   instant.-->
-        
+
       <div ref="search">
         <BaseSimpleInputWithButton
           :placeholderText="'Search Keywords'"
