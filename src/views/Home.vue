@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ResumePage/>
+    <ResumePage />
     <div>
       <BaseButton v-bind:onClick="getResume">Get Resume Data</BaseButton>
     </div>
@@ -8,21 +8,19 @@
 </template>
 
 <script>
+import ResumePage from "./ResumePage";
 
-  import ResumePage from "./ResumePage";
+export default {
+  name: "home",
+  components: { ResumePage },
+  methods: {
+    getResume() {
+      const email = this.$route.params.email;
 
-  export default {
-    name: "home",
-    components: { ResumePage }
-    , methods:{
-      getResume(){
+      console.log("Getting resume for " + email);
 
-        const email = this.$route.params.email;
-
-        console.log("Getting resume for " + email);
-
-        this.$store.dispatch('fetchResumeByEmail', email)
-      }
+      this.$store.dispatch("fetchResumeByEmail", email);
     }
-  };
+  }
+};
 </script>

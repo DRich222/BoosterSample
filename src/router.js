@@ -1,7 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-
+import ResumePage from "./views/ResumePage";
 Vue.use(Router);
 
 export default new Router({
@@ -10,9 +9,9 @@ export default new Router({
   name: "boosterRouter",
   routes: [
     {
-      path: "/:email",
-      name: "home",
-      component: Home
+      path: "/",
+      name: "ResumePage",
+      component: ResumePage
     }
   ]
 });

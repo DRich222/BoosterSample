@@ -1,76 +1,71 @@
 <template>
-    <div class="rightSideContainer"
-         ref="rightSideContainer"
-    >
-        <div class="headerContainer">
-            <RightSideControlHeader/>
-        </div>
-        <div class="keywordListContainer">
-            <KeywordList/>
-        </div>
-        <div class="controlBoxContainer">
-            <ControlBox/>
-        </div>
+  <div class="rightSideContainer" ref="rightSideContainer">
+    <!--        The control header and control box are part of the actual application, but I haven't finished them yet, so -->
+    <!--        I'm removing them from this demo version-->
+    <!--        <div class="headerContainer">-->
+    <!--            <RightSideControlHeader/>-->
+    <!--        </div>-->
+    <div class="keywordListContainer">
+      <KeywordList />
     </div>
+    <!--        <div class="controlBoxContainer">-->
+    <!--            <ControlBox/>-->
+    <!--        </div>-->
+  </div>
 </template>
 
 <script>
+// import RightSideControlHeader from "./RightSideControlHeader/RightSideControlHeader";
+import KeywordList from "./KeywordList/KeywordList";
+// import ControlBox from "./ControlBox";
 
-  import RightSideControlHeader from './RightSideControlHeader/RightSideControlHeader'
-  import KeywordList from './KeywordList/KeywordList'
-  import ControlBox from './ControlBox'
-
-  export default {
-    name: "RightSideControls",
-    components:{
-      RightSideControlHeader,
-      KeywordList,
-      ControlBox
-    }
-  };
+export default {
+  name: "RightSideControls",
+  components: {
+    // RightSideControlHeader,
+    KeywordList
+    // ControlBox
+  }
+};
 </script>
 
 <style scoped>
+.rightSideContainer {
+  max-height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: fit-content;
+}
 
-    .rightSideContainer{
-        max-height: 100vh;
-        position: sticky;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        width: fit-content;
-    }
+.headerContainer {
+  flex: 0 0 auto;
+}
 
-    .headerContainer{
-        flex: 0 0 auto;
-    }
+.keywordListContainer {
+  flex: 1 1 auto;
+  display: flex;
+  overflow-y: hidden;
+  width: 100%;
+}
 
-    .keywordListContainer{
-        flex: 1 1 auto;
-        display: flex;
-        overflow-y: hidden;
-        width: 100%;
-    }
+.expandHalfOnly .rightSideContainer {
+  overflow: scroll;
+}
 
-    .expandHalfOnly .rightSideContainer{
-        overflow: scroll;
-    }
+.expandHalfOnly .keywordListContainer {
+  overflow-y: visible;
+}
 
-    .expandHalfOnly .keywordListContainer{
-        overflow-y: visible;
-    }
+@media all and (max-width: 960px) {
+  .rightSideContainer {
+    width: 100%;
+  }
+}
 
-    @media all and (max-width: 960px) {
-
-        .rightSideContainer{
-            width: 100%;
-        }
-    }
-
-
-    .controlBoxContainer{
-        flex: 0 0 auto;
-    }
-
+.controlBoxContainer {
+  flex: 0 0 auto;
+}
 </style>
