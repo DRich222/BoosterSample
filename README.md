@@ -1,4 +1,4 @@
-# applicantfe
+# Dan Rich Code Sample
 
 ## Intro
 Thanks for your interest in my code sample!
