@@ -2,12 +2,23 @@
 
 ## Intro
 Thanks for your interest in my code sample!
-This code was written in Vue.JS and is a stand-alone extract intended to provide a sense of my development ability.  This sample is part of an in-process development effort.
+
+This sample comes from a project called "Booster", which is a resume web platform.  The novelty of Booster is that it allows users to connect the work that they've done ("impacts") with the skills employers are looking for ("keywords").  
+
+This code was written in Vue.JS and is a stand-alone slice of broader functionality intended to provide a sense of my development ability.  This sample is part of an in-process development effort.
 If you run this code locally, please check out the following functionality:
 1. Click on impacts (bullets) to see associated keywords.
 1. Click on keywords (in the column on the right) to see the impacts associated with that keyword.
 1. Click the "Show / Hide All" switch at the top of the keyword list to see how impact statements are displayed and hidden based on the keywords that are active (shown) or inactive (hidden).
 1. Use dev tools, navigate to the deployed instance on your phone, or just make the window narrow to see the mobile version of the page.  Be sure to change the width by either adjusting the orientation of the mobile device (real or virtual) or simply resizing the browser window.
+
+A few items that the larger project includes that aren't reflected in this sample are:
+1. Java using the Spring Boot framwork 
+1. SQL (T-SQL) and data persistence
+1. Integration with external APIs (one for account management capabilities, another for resume parsing capabilities).
+1. Security leveraging JSON Web Tokens
+1. Authentication via a third-part provider.
+1. Rest API development
 
 ## Prerequsits
 To run this you must have node.js and npm installed.
