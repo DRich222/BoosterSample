@@ -43,7 +43,7 @@ The meat of the code is structured as follows.  Please note:
 1. All items listed are .vue files
 1. (Items in parens have been commented out of the code since they're not part of the demo, are part or will be part of the product)
 1. \* Items with an asterisk are areas I've put a bit of work into and I think showcases some of my ability.
-1. The `ResumePage` I've listed as the root below can be found in `src\views`.  The code structure outlined below reflects how components are nested within other components, not the file structure.
+1. The `ResumePage` I've listed as the root below can be found in `src/views`.  The code structure outlined below reflects how components are nested within other components, not the file structure.
 
 ```
 ResumePage
@@ -72,3 +72,5 @@ ResumePage
   |       |-- KeywordDetails_PublicView
   |-- (ControlBox)
   ```
+  
+  Finally, this code sample uses Vuex for state management.  The core component of Vuex is the store, which can be found at `src/store.js`
