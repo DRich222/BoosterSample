@@ -12,12 +12,7 @@ const apiClient = axios.create({
 
 export default {
   getResume(email) {
-    if (email.toUpperCase() !== "DRICH222@HOTMAIL.COM") {
-      alert(
-        "In production this would take you to someone else's resume.  Since this is a stand-alone demo" +
-          " though, I've only included my resume."
-      );
-    }
+    const data = { email: email };
 
     //@Reviewer
     // I have a local client running that I actually call for the real data.  I want this to be stand-alone
