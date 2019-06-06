@@ -1,6 +1,9 @@
 <template>
   <!--    @Reviewer
-If you have a better way of debugging Safari on an iPhone WITHOUT dropping ~$1000 on a MAC, please let me know
+          This is a panel that displays over a significant portion of the top-left corner of the browser viewport, so I can
+          print statements there that would otherwise end up in the the console.
+          If you have a better way of debugging Safari on an iPhone WITHOUT dropping ~$1000 on a MAC, please let me
+          know.
 -->
   <div id="safariDebuggingData">{{ debuggingData }}</div>
 </template>

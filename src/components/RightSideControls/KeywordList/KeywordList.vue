@@ -1,5 +1,9 @@
 <template>
+<!--    @Reviewer
+        This is just the container for keywords and their controls.-->
     <div class="main">
+
+
         <div class="controlsContainer">
             <KeywordControls/>
         </div>

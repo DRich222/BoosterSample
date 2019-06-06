@@ -1,9 +1,6 @@
 <template>
-    <!--    <div class="sectionHeader">-->
-    <!--        <div v-if="includeFocus" class="sectionFocus">{{headerDetails.focus}}</div>-->
-    <!--        <div><div>{{headerDetails.organization}}</div><div>{{headerDetails.location}}</div></div>-->
-    <!--        <div>Hours / Week: {{headerDetails.hoursPerWeek}}</div>-->
-    <!--    </div>-->
+<!--@Reviewer
+    The header just contains basic information about a sections-->
     <v-container fluid class="sectionHeader">
         <v-layout row>
             <v-flex xs12>

@@ -10,7 +10,7 @@
     <div v-if="resloaded">
       <!--        @Reviewer-->
       <!--        Booster is design to be very mobile friendly.  The content for this is largely the same as for the right
-            side content though-->
+            side content below though-->
       <MobileControls v-if="appWidthDescription < 2" />
       <v-layout row>
         <v-flex sm12 md9>

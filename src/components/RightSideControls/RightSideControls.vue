@@ -1,7 +1,8 @@
 <template>
   <div class="rightSideContainer" ref="rightSideContainer">
-    <!--        The control header and control box are part of the actual application, but I haven't finished them yet, so -->
-    <!--        I'm removing them from this demo version-->
+<!--      @Reviewer
+          The control header and control box are part of the actual application, but I haven't finished them yet, so
+          I'm removing them from this demo version-->
     <!--        <div class="headerContainer">-->
     <!--            <RightSideControlHeader/>-->
     <!--        </div>-->

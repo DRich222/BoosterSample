@@ -64,9 +64,16 @@
         transition: $duration--short-transition;
     }
 
+    :not(.current) .impactKeyword{
+        color: $color--secondary;
+    }
+
     .impactKeyword.deemphaize{
         background-color: $color--deemphasize !important;
+        color: $color--deemphasize;
     }
+
+
 
     .current .impactKeyword{
         padding: 2px 10px;

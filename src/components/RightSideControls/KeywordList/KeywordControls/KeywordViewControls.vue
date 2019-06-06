@@ -2,8 +2,9 @@
   <div>
     <div class="mainContainer">
       <!--        @Reviewer
-            Type text here and only keywords with that text will be listed.  The search/filtering capability is instant.
--->
+                  Type text here and only keywords with that text will be listed.  The search/filtering capability is
+                  instant.-->
+        
       <div ref="search">
         <BaseSimpleInputWithButton
           :placeholderText="'Search Keywords'"
@@ -15,8 +16,9 @@
       </div>
 
       <!--        @Reviewer
-            There will be sorting functionality.  You'll be able to sort alphabetically, but also by other attributes
-             such as "Experience Index", which I can tell you about if you're interested.-->
+                  There will be sorting functionality.  You'll be able to sort alphabetically, but also by other
+                  attributes such as "Experience Index", which I can tell you about if you're interested.-->
+
       <!--        <div ref="sort">-->
       <!--            <KeywordSortControl/>-->
       <!--        </div>-->

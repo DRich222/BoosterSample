@@ -1,4 +1,8 @@
 <template>
+<!--    @Reviewer
+        The resume has 3 "areas" (for now): Work, Education, and Projects.  Each area is simply a collection of the
+        sections (individual jobs, educational experience, and projects) of the appropriate type.
+-->
     <div class="mainArea">
         <h2 class="areaHeader">{{getType}}</h2>
         <div v-for="section of sections" :key="section.strSectionID">

@@ -1,4 +1,20 @@
 <template>
+
+<!--    @Rewviewer
+        Impacts are individual bullets listed for each section of a resume.  The classes are applied as follows:
+            1. "bstr_highlight": applied when the "current keyword" is associated with the impact
+
+            2. "hidden"        : a global class applied when the impact is only associated with keywords that have been
+                                 set to not "active" in the keyword list.
+
+            3. "current"       : applied when a keyword is clicked.  This has the effect of making the impact bold and
+                                 underlined and also expands the impact keywords bubble.
+
+            4. "notCurrent"    : applied when a different impact is the current impact.  This class fades the impact text
+                                 to further highlight the impact that IS current
+
+            5. "usePointer"    : applied for impacts that have been tagged with keywords, and indicates that an
+                                 impact can be clicked.-->
   <li
     :class="[
       { bstr_highlight: shouldHighlight },

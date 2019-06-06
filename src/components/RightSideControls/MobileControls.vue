@@ -1,6 +1,8 @@
 <template>
-  <!--    @Reviewer-->
-  <!--    The bar when there's a current keyword is what I'm working on right now, which is why it looks awful.-->
+  <!--    @Reviewer
+          This control provides a hide-able menu for browsing keywords on a mobile device without cramping either the
+          keywords  or the resume content.  The bar when there's a current keyword is what I'm working on right now,
+          which is why it looks awful.-->
   <div
     :class="[
       { expanded: expanded },

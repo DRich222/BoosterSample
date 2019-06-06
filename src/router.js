@@ -9,7 +9,7 @@ export default new Router({
   name: "boosterRouter",
   routes: [
     {
-      path: "/",
+      path: "/:email",
       name: "ResumePage",
       component: ResumePage
     }

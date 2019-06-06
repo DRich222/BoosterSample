@@ -10,7 +10,8 @@
         What I haven't finished yet is:
             1. The animation in Safari is awkward.  It expands before sliding down into the appropriate position.
             2. When the keywords are wider than the max width, the container stays at the max width even though
-               the keywords wrap.  The container should be just a little wider than the widest row of keywords.
+               the keywords wrap.  The container should be just a little wider than the widest row of keywords- not
+               expanded fully leaving a potentially wide blank space at the end.
             3. I haven't figured out how I want to deal with longer keywords (e.g. "Business Process Analysis and
                Implementation").  On the desktop it shouldn't be a problem, but on a phone there could be some
                overflow.  I don't want that overflow to have a scroll bar, but I'm not sure if I want to handle the

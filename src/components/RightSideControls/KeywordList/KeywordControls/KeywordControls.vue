@@ -1,4 +1,6 @@
 <template>
+<!--    @Reviewer
+        There are different controls based on whether a user is viewing a resume or editing one.-->
     <KeywordViewControls v-if="activity==='view'"/>
     <AddKeywordControls v-else-if="activity==='editContent'"/>
 </template>
