@@ -3,7 +3,7 @@
 ## Intro
 Thanks for your interest in my code sample!
 
-This sample comes from a project called "Booster", which is a resume web platform.  The novelty of Booster is that it allows users to connect the work that they've done ("impacts") with the skills employers are looking for ("keywords").  
+This sample comes from an application called "Booster", which is a resume web platform.  What distinguishes Booster from other resume development options is that it allows users to connect the work that they've done ("impacts") with the skills employers are looking for ("keywords").  
 
 This code was written in Vue.JS and is a stand-alone slice of broader functionality intended to provide a sense of my development ability.  This sample is part of an in-process development effort.
 If you run this code locally, please check out the following functionality:
@@ -20,7 +20,7 @@ A few items that the larger project includes that aren't reflected in this sampl
 1. Authentication via a third-part provider.
 1. Rest API development
 
-## Prerequsits
+## Prerequisites
 To run this you must have node.js and npm installed.
 Although the actual product makes API calls, this demo version is completely stand-alone.
 
